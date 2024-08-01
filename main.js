@@ -64,10 +64,20 @@ if ( i %2 ==0){
   
 // EJERCICIO DE SOLE
 
-/*for (let i=0; i <=10; i++)
-    if (i % 3 ==0){
-        console.log(`su division es ${i}`);
+for (let i=0; i <=60; i++)
+    /*if (i % 3 ==0){
+        console.log(`su division x3 es ${i}`);
     }
     else if (i % 5 ==0){
-        console.log(`su division es ${i}`);
-    } */
+        console.log(`su division x 5 es ${i}`);
+    }*/ 
+    if (i %3 ===0 && i %5==0){
+        console.log(`su division x3 y x5 es ${i}`);
+    }
+
+
+
+
+        //for (let i = 0; i < 5; i++) {
+          //  console.log("El valor de i es: " + i);
+            //}
