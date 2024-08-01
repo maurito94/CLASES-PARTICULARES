@@ -55,19 +55,19 @@ if (edad >=18){
 //for (let mauro = 4; mauro <10; mauro++)
 //{console.log(mauro);}
 
-/*const array = [1,2,3,4,5,6,7,8,9,10]
-for (let i=0; i < array.length; i++)
-    if (array [i] %2 ==0)
-    console.log(array[i]);*/
+//const array = [1,2,3,4,5,6,7,8,9,10]
 
+/*for (let i=4; i <=10; i++)
+if ( i %2 ==0){
+    console.log("su division es" + i);
+}*/
+  
+// EJERCICIO DE SOLE
 
-
-    for (let i = 1; i <= 10; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log(`${i}: Divido por ambos`);
-        } else if (i % 3 === 0) {
-            console.log(`${i}: Divido por 3`);
-        } else if (i % 5 === 0) {
-            console.log(`${i}: Divido por 5`);
-        }
+/*for (let i=0; i <=10; i++)
+    if (i % 3 ==0){
+        console.log(`su division es ${i}`);
     }
+    else if (i % 5 ==0){
+        console.log(`su division es ${i}`);
+    } */
