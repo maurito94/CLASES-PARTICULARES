@@ -18,7 +18,8 @@
 // alert ("Ingrese una termperatura valida wachin");
 // } else {console.log("Esta agradable");}
 
-let dia = 1
+//
+/*let dia = 1
 switch (dia) {
 case 1:
 dia = "Lunes";
@@ -39,4 +40,21 @@ default:
 dia = "Número no válido";
 break
 }
-console.log(dia);
+console.log(dia);*/
+
+
+// EMPEZAMOS CON IF / ELSE IF / ELSE
+
+/*const edad = 22
+if (edad >=18){
+    console.log(edad >=18);
+    console.log("es mayor");
+}else {console.log(edad >=18);
+    console.log("Ingrese un numero mayor")}; */
+
+//for (let mauro = 4; mauro <10; mauro++)
+//{console.log(mauro);}
+
+const array = ["mauro", "abel", "pellon"]
+for (let i=2; i < array.length; i++)
+    console.log(array[i]);
